@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Aquatech</title>
+    <link rel="stylesheet" href="styleCadastro.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="titulo"> Aquatech</h1>
+            <ul class="navbar">
+                <li>Inicial</li>
+                <li>Simulador</li>
+                <li>|</li>
+                <li>Login </li>
+                <a href="./cadastro.html">
+                    <li><strong>Cadastro</strong></li>
+
+                </a>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="container">
+            <div class="label">
+                <label>
+                <div class="divtexto">
+                        <h2><center>Bem-vindo!</center></h2>
+                        
+                        <strong>Nome:</strong> <br> <input type="text" id="input_nome" placeholder="Seu nome " class="inputs">
+                        <br>
+                        <strong>E-mail:</strong> <br> <input type="text" id="input_email" placeholder="meuemail@provedor.com" class="inputs">
+                        <br>
+                        <strong>Senha:</strong> <br> <input type="password" id="input_senha" placeholder="********" class="inputs">
+                        <br>
+                        <strong>Confirmação de Senha: </strong><br> <input type="password" id="input_corfirma"  placeholder="********" class="inputs">
+
+                    </div>
+                    <button onclick="cadastro()" class="botao">Cadastrar</button>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
